@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<title>LogIn</title>
+ <style type="text/css">
+ 	.LogIn{
+ 		text-align: center;
+ 		font-family: Monospace;
+ 		font-size: 30px;
+ 	}
+ </style>
+</head>
+<body>
+	<div class="LogIn">
+		<h1>LogIn</h1>
+		<form class="form" method="post" action="/login_validation" >
+			name:<input type="text" name="name"><br><br>
+			bithdate(which is your pass):<input type="text" name="birthdate"><br><br>
+			<input type="submit" value="LogIn">
+			<br><br>
+			<p>{{msg}}</p>
+		</form>
+	</div>
+</body>
+</html>
