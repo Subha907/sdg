@@ -1,0 +1,78 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		.header{
+            height: 100px;
+            background-color: #99ceff;
+          
+		}
+		h1{
+			text-align: center;
+			font-size: 40px;
+			font-family: Monospace;
+			top:20px;
+		}
+		h2{
+			  position: absolute;
+    		  top: 50%;
+  			  width: 100%;
+              text-align: center;
+              font-size: 25px;
+              font-family: Cursive;
+              color: white;
+
+		}
+		.img{position: absolute;
+    		  top:0px;
+  			  width:100px ;
+  			  height:100px;
+              font-size: 18px;
+
+
+		}
+		.backvideo{
+			position: absolute;
+			right: 0;
+			left: 50;
+			top:40;
+			bottom:20;
+			min-width: 80%;
+			min-height: 80%;
+			width: 800;
+			height: 600;
+			z-index: -1;
+		}
+		
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 36px;
+	line-height: 36px;
+	background-color: black;
+	font-family: Monospace;
+	font-size: 15px;
+	left: 50%;
+}
+li{
+	float: right;
+	
+	border-radius: 30px;
+}
+
+a{
+	display: block;
+	padding: 0 28px;
+	color: #fff;
+	text-decoration: none;
+}
+a:hover, .active a{
+	background-color: #f4511e;
+	border-radius: px;
+	transition: all 0.3s ease 0s;
+
+}
+ a:hover, .active a{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
